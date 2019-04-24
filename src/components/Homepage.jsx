@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
+import GetStarted from "./GetStarted";
 
-function Homepage(){
-    return(
-  <div>
-      <h1>Homepage works</h1>
-  </div>
-    );
+function Homepage() {
+  return (
+    <div>
+      <GetStarted />
+    </div>
+  );
 }
 
 export default Homepage;
