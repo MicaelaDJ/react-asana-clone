@@ -7,6 +7,7 @@ function GetStarted() {
         .wrapper {
           text-align: center;
           margin: 100px;
+          position: relative;
         }
         .button {
           color: white;
@@ -23,6 +24,7 @@ function GetStarted() {
           margin-right: 30px;
           width: 390px;
           border: 2px solid #eeeeee;
+          margin-bottom: 100px;
         }
         input::placeholder {
           color: #ccc;

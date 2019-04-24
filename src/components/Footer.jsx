@@ -2,6 +2,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaTwitter } from "react-icons/fa";
 import { FaFacebook } from "react-icons/fa";
+import googlePlay from "../assets/images/google.svg";
+import appStore from "../assets/images/appstore.svg";
 
 function Footer() {
   let noUnderline = {
@@ -12,8 +14,6 @@ function Footer() {
       <style jsx>{`
         .footer {
           margin-left: -10px;
-          position: absolute;
-          bottom: 0;
           background-color: #151b26;
           width: 100%;
         }
@@ -285,12 +285,12 @@ function Footer() {
         </div>
         <div>
           <a className="link" href="">
-            App Store
+            <img src={appStore} alt="" />
           </a>
         </div>
         <div>
           <a className="link" href="">
-            Google Play
+            <img src={googlePlay} alt="" />
           </a>
         </div>
       </div>
