@@ -138,7 +138,7 @@ function Footer() {
               <p className="link">Company</p>
             </Link>
             <br />
-            <Link style={noUnderline} to="#">
+            <Link style={noUnderline} to="/about">
               <p className="link">Leadership</p>
             </Link>
             <br />
